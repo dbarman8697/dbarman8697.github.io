@@ -97,7 +97,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 #nav-menu > #nav-options > a {
@@ -105,7 +105,7 @@ h1 {
   color: white;
   flex: 1;
   text-align: center;
-  padding: 6px;
+  padding: 5px;
 }
 
 #resume-button-1{
