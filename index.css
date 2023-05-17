@@ -302,10 +302,6 @@ h2{
     width: 150px;
     height: 75px;
   }
-
-  #tech-skills > h1 {
-    text-align: center;
-  }
 }
 
 .skills-card {
@@ -351,6 +347,12 @@ h2{
 
 #soft-skills > h1 {
   text-align: left;
+  justify-content: center;
+}
+
+#tech-skills > h1 {
+  text-align: left;
+  justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
