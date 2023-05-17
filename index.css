@@ -25,7 +25,7 @@ h1 {
 }
 
 h2{
-	background-image: -webkit-linear-gradient(45deg,#ff0000, #ffff00,#ff00f3,#0033ff ,#ff00c4, cyan);
+	background-image: -webkit-linear-gradient(45deg,#ff0000, #ffff00,#ff00f3,#0033ff,#ff00c4, cyan);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: hue 6s infinite linear;
