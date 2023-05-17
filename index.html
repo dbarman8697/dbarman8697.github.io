@@ -17,7 +17,7 @@
 
   <body>
     <nav id="nav-menu" style="height: 80px;">
-      <a id="dwipayan-logo" href="#home" style="font-size: 30px; font-style:oblique; display: flex;align-items: center;">DWIPAYAN&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16"> <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/> </svg></a>
+      <a id="dwipayan-logo" href="#home" style="font-size: 26px; font-style:oblique; display: flex;align-items: center;">DWIPAYAN&nbsp<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16"> <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/> </svg></a>
       <div id="nav-options">
         <a href="#home" class="nav-link home">Home</a>
         <a href="#about" class="nav-link about">About</a>
@@ -70,7 +70,9 @@
         class="max-w-[1000px]  mx-auto px-8 flex flex-col justify-center h-full"
       >
         <p class="text-pink-600">Hi, my name is</p>
-        <h1 class="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 class="text-4xl sm:text-7xl font-bold text-[#ccd6f6]" style=" -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+
+  -webkit-text-stroke-color: cyan;">
           DWIPAYAN BARMAN
         </h1>
         <h2 class="text-4xl sm:text-4xl font-bold text-[#8892b0]" style="margin-top: 20px;">
@@ -92,7 +94,12 @@
     </div>
 
     <div id="about" class="about section" style="margin-top: -120px;">
-      <h1 class="section-headings" style="text-align: center;">About</h1>
+      <!-- <h1 class="section-headings" style="text-align: center;">About</h1> -->
+      <div class="pb-8 section-headings" style="text-align: center;">
+        <p class="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          About
+        </p>
+        </div>
       <div id="about-wrapper">
 
         <div id="about-info-wrapper">
@@ -135,7 +142,11 @@
     </div> -->
 
     <div id="skills">
-      <h1 class="section-headings" style="text-align: center;">Skills</h1>
+      <div class="pb-8 section-headings" style="text-align: center;">
+        <p class="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          Skills
+        </p>
+        </div>
       <div id="skills-wrapper">
         <div id="tech-skills">
           <h1 style="font-size: 30px; display: flex; align-items: center; text-align: center;">Tech Skills <svg xmlns="http://www.w3.org/2000/svg" width="58" height="30" fill="currentColor" class="bi bi-boxes" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" id="mainIconPathAttribute" stroke="#00d5ff" stroke-width="0.2"></path> </svg></h1>
@@ -263,7 +274,11 @@
     </div>
 
     <div id="projects">
-      <h1 class="section-headings" style="text-align: center;">Projects</h1>
+      <div class="pb-8 section-headings" style="text-align: center;">
+        <p class="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          Projects
+        </p>
+        </div>
       <div id="projects-wrapper">
         <div class="project-card">
           <img
