@@ -24,6 +24,22 @@ h1 {
   color: cyan;
 }
 
+h2{
+	background-image: -webkit-linear-gradient(45deg,#ff0000, #ffff00,#ff00f3,#0033ff ,#ff00c4, cyan);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 6s infinite linear;
+  background-size: 400%;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 2rem !important;
@@ -204,7 +220,7 @@ h1 {
   flex-direction: column;
 }
 
-#user-detail-name {
+#user-detail-name > h1 {
   text-shadow: 0px 0px 30px cyan;
 }
 
@@ -221,9 +237,10 @@ h1 {
 #html-css-js {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   flex-wrap: wrap;
-  column-gap: 80px;
+  column-gap: 200px;
+  margin-left: -10px;
 }
 
 #html-css-js img {
@@ -237,6 +254,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  column-gap: 102px;
 }
 
 #react-redux-router-chakra img {
@@ -248,8 +266,9 @@ h1 {
 #node-express-mongo {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: center;
   flex-wrap: wrap;
+  column-gap: 102px;
 }
 
 #node-express-mongo img {
